@@ -1,0 +1,286 @@
+@media screen and (max-width: 768px)
+{
+    .precios{
+        margin-left: 0;
+        margin-top: 100px;
+        width: 100vw;
+        position: relative;
+        display: grid;
+        color: white;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns:1fr 1fr;
+        row-gap: 1px;
+        grid-template-rows: 200px 200px repeat(16, 75px);
+        grid-template-areas:
+        "encabezado encabezado"
+        "logodisney logocombo"
+        "uno uno"
+        "nueve dash1"
+        "dos dos"
+        "check1 check2"
+        "tres tres"
+        "dash2 check3"
+        "cuatro cuatro"
+        "dash3 check4"
+        "cinco cinco"
+        "diez doce"
+        "seis seis"
+        "check5 check6"
+        "siete siete"
+        "once trece"
+        "ocho ocho"
+        "check7 check8";
+    
+    
+    }
+    .precios_encabezado{
+        grid-area: encabezado;
+    }
+    
+    .precios_logodisney{
+        grid-area: logodisney;
+        width: 100%;
+        height: 100%;
+        border-top: 1px solid #5c5e66;
+        margin-top: 0;
+    }
+    
+    .precios_logocombo{
+        grid-area: logocombo;
+        border-top: 1px solid #5c5e66;
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        background: #1d1f2b;
+    }
+    
+    .precios_info1 p{
+        grid-area: uno;
+        width: 100%;
+        height: 10%;
+        padding-top: 20px;
+        text-align: center;
+        border-bottom: none;
+    }
+    .precios_info2 p{
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        text-align: center;
+        grid-area: dos;
+    }
+    .precios_info3 p{
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        text-align: center;
+        grid-area: tres;
+    }
+    .precios_info4 p{
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        text-align: center;
+        grid-area: cuatro;
+    }
+    .precios_info5 p{
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        text-align: center;
+        grid-area: cinco;
+    }
+    .precios_info6 p{
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        text-align: center;
+        grid-area: seis;
+    }
+    .precios_info7 p{
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        text-align: center;
+        grid-area: siete;
+    }
+    .precios_info8 p{
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        text-align: center;
+        grid-area: ocho;
+        border-bottom: none;
+    }
+    .precios_info9 {
+        grid-area: nueve;
+        width: 100%;
+        height: 100%;
+        border-top: none;
+        margin-bottom: 20px;
+
+    }
+
+    .precios_info10 {
+
+        border-top: none;
+
+
+    }
+    .precios_info11 {
+
+        border-top: none;
+
+    }
+
+    .precios_info10 p{
+        grid-area: diez;
+        border-top: none;
+        width: 100%;
+        height: 100%;
+
+    }
+    .precios_info11 p{
+        grid-area: once;
+        border-top: none;
+        width: 100%;
+        height: 100%;
+
+    }
+    .precios_info12{
+        grid-area: doce;
+        border-top: none;
+    }
+    .precios_info13{
+        grid-area: trece;
+        border-top: none;
+    }
+    .precios_dash1{
+        grid-area: dash1;
+        width: 100%;
+        height: 100%;
+        border-top: none;
+        background: transparent;
+    }
+    .precios_dash2{
+        grid-area: dash2;
+        border-top: none;
+        background: transparent;
+    }
+    .precios_dash3{
+        grid-area: dash3;
+        border-top: none;
+        background: transparent;
+    }
+    .precios_dash4{
+        grid-area: dash4;
+        border-top: none;
+        background: transparent;
+    }
+    .precios_check1{
+        grid-area: check1;
+        border-top: none;
+        background: transparent;
+    }
+    .precios_check2{
+        grid-area: check2;
+        border-top: none;
+        background: transparent;
+    }
+    .precios_check3{
+        grid-area: check3;
+        border-top: none;
+        background: transparent;
+    }
+    .precios_check4{
+        grid-area: check4;
+        border-top: none;
+        background: transparent;
+    }
+    .precios_check5{
+        grid-area: check5;
+        border-top: none;
+        background: transparent;
+    }
+    .precios_check6{
+        grid-area: check6;
+        border-top: none;
+        background: transparent;
+    }
+    .precios_check7{
+        grid-area: check7;
+        border-top: none;
+        background: transparent;
+        border-bottom: 1px #2c2f39 solid;
+    }
+    .precios_check8{
+        grid-area: check8;
+        border-top: none;
+        background: transparent;
+        border-bottom: 1px #2c2f39 solid ;
+    }
+    
+    .dash{
+        width: 20px;
+        background: transparent;
+    }
+    .check{
+        width: 20px;
+        background: transparent;
+    }
+    
+    .precios_logodisney button{
+        color: white;
+    }
+    
+    .precios_logocombo button{
+        color: white;
+    }
+    
+    .preciosLogos{
+        display: block;
+        width: 150px;
+        background: transparent;
+    }
+    
+    .precios_encabezado1{
+        text-align: center;
+        color: white;
+        font-size: 45px;
+        background: transparent;
+    }
+    
+    .gray{
+        width: 100%;
+        height: 100%;
+        background: none;
+    }
+    
+    .bluebtn{
+        background: #0063e5;
+        color: white;
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 3px;
+        
+    }
+
+    .precios_info9 p{
+        padding: 10px;
+    }
+    
+    .condiciones{
+        margin-top: 10px;
+        margin-left: 5px;
+        color: lightgrey;
+        width: 100%;
+    }
+    .precios_info8 {
+        border-bottom: none;
+    }
+}
+

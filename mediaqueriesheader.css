@@ -1,0 +1,50 @@
+@media screen and (max-width: 1024px)
+{
+    .cabecera{
+        display:block;
+    }
+
+    .login_img{
+        width: 100%;
+        transition: 0.3s ease-in;
+    }
+
+    .login{
+        position: relative;
+    }
+
+    .aside{
+        display: flex;
+        position: relative;
+        align-items: center;
+        order: 2;
+        width:auto;
+        padding: 0 10vw 10vw 10vw;
+        margin-top: 0;
+    }
+
+    .aside_txt{
+        font-size: 35px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .aside_btn{
+        padding: 20px;
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .aside_link{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 720px)
+{
+    .login_btn{
+        font-size: 10px;
+    }
+
+}
+

@@ -1,0 +1,331 @@
+/* estilos del contenido*/
+
+    .contenido{
+    display: block;
+    }
+    
+    .precios{
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 80px;
+        min-width: 60vw;
+        position: relative;
+        display: grid;
+        color: white;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 2fr 1fr 1fr;
+        row-gap: 1px;
+        grid-template-rows: repeat(10, minmax(100px, 150px));
+        grid-template-areas:
+        "encabezado encabezado encabezado"
+        ". logodisney logocombo"
+        "uno nueve dash1"
+        "dos check1 check2"
+        "tres dash2 check3"
+        "cuatro dash3 check4"
+        "cinco diez doce"
+        "seis check5 check6"
+        "siete once trece"
+        "ocho check7 check8";
+    
+    
+    }
+    .precios_encabezado{
+        grid-area: encabezado;
+    }
+    
+    .precios_logodisney{
+        grid-area: logodisney;
+        width: 100%;
+        height: 100%;
+        border-top: 2px solid gray;
+        margin-top: 0;
+    }
+    
+    .precios_logocombo{
+        grid-area: logocombo;
+        border-top: 2px solid gray;
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        background: #1d1f2b;
+    }
+    
+    .precios_info1{
+        grid-area: uno;
+        width: 100%;
+        height: 100%;
+        border-top: 2px #5c5e66 solid;
+    }
+    .precios_info2{
+        grid-area: dos;
+        
+    }
+    .precios_info3{
+        grid-area: tres;
+    }
+    .precios_info4{
+        grid-area: cuatro;
+    }
+    .precios_info5{
+        grid-area: cinco;
+    }
+    .precios_info6{
+        grid-area: seis;
+    }
+    .precios_info7{
+        grid-area: siete;
+    }
+    .precios_info8{
+        grid-area: ocho;
+        border-bottom: 1px #2c2f39 solid;
+    }
+    .precios_info9{
+        grid-area: nueve;
+        width: 100%;
+        height: 100%;
+        border-top: 2px #5c5e66 solid;
+    }
+    .precios_info10{
+        grid-area: diez;
+    }
+    .precios_info11{
+        grid-area: once;
+    }
+    .precios_info12{
+        grid-area: doce;
+    }
+    .precios_info13{
+        grid-area: trece;
+    }
+    .precios_dash1{
+        grid-area: dash1;
+        width: 100%;
+        height: 100%;
+        border-top: 2px #5c5e66 solid;
+    }
+    .precios_dash2{
+        grid-area: dash2;
+    }
+    .precios_dash3{
+        grid-area: dash3;
+    }
+    .precios_dash4{
+        grid-area: dash4;
+    }
+    .precios_check1{
+        grid-area: check1;
+    }
+    .precios_check2{
+        grid-area: check2;
+    }
+    .precios_check3{
+        grid-area: check3;
+    }
+    .precios_check4{
+        grid-area: check4;
+    }
+    .precios_check5{
+        grid-area: check5;
+    }
+    .precios_check6{
+        grid-area: check6;
+    }
+    .precios_check7{
+        grid-area: check7;
+        border-bottom: 1px #2c2f39 solid;
+    }
+    .precios_check8{
+        grid-area: check8;
+        border-bottom: 1px #2c2f39 solid;
+    }
+    
+    .dash{
+        width: 20px;
+        background: transparent;
+    }
+    .check{
+        width: 20px;
+        background: transparent;
+    }
+    
+    .precios_logodisney button{
+        color: white;
+    }
+    
+    .precios_logocombo button{
+        color: white;
+    }
+    
+    .preciosLogos{
+        display: block;
+        width: 150px;
+        background: transparent;
+    }
+    
+    .precios_encabezado1{
+        text-align: center;
+        color: white;
+        font-size: 45px;
+        background: transparent;
+        padding-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .precios_encabezado2{
+        font-size: 20px;
+    }
+    
+    .gray{
+        width: 100%;
+        height: 100%;
+        background: #1d1f2b;
+    }
+    
+    .bluebtn{
+        background: #0063e5;
+        color: white;
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        
+    }
+
+    .bluebtn:hover{
+        background: #016cf9;  
+    }
+    
+    .grayline{
+        width: 100%;
+        height: 100%;
+        border-top: 1px #2c2f39 solid;
+    }
+    
+    .center{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .purplebtn{
+        background: #6421ff;
+        color: white;
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 21px;
+        text-align: center;
+        text-decoration: none;
+        
+    }
+
+    .purplebtn:hover{
+        background: #7828ff;
+    }
+    
+    .centerinfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .precios_info9 p{
+        padding: 10px;
+    }
+
+    .condiciones{
+        margin-top: 10px;
+        margin-left: 20vw;
+        color: lightgrey;
+        width: 60vw;
+    }
+
+    /*Estilos de info de dispositivos compatibles*/
+
+    .info{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+
+        "encabezado imagen"
+        "texto imagen";
+    }
+    .info_encabezado{
+        align-self: flex-end;
+        justify-self: center;
+        color: white;
+        font-size: 40px;
+        background: transparent;
+        grid-area: encabezado;
+    }
+    .info_txt{
+        width: 40vw;
+        justify-self: center;
+        align-self: center;
+        color: white;
+        font-size: 20px;
+        background: transparent;
+        grid-area: texto;
+        
+    }
+    .info_img{
+        justify-self: center;
+        align-self: center;
+        width: 80%;
+        grid-area: imagen;
+        
+    }
+
+    
+/*Estilos del catalogo*/
+.catalogo{
+    margin-top: 150px;
+}
+
+.catalogo_txt{
+    color: white;
+    width: 100%;
+    text-align: center;
+    
+}
+.catalogo_txt_enc{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.catalogo_txt_p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.catalogo_img{
+    display: grid;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
+    gap: 25px;
+    margin: 0 auto;
+    width: 80vw;
+    margin-bottom: 200px;
+}
+
+.catalogo_img img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
